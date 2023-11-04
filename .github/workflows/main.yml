@@ -13,11 +13,11 @@ jobs:
 
 
     steps:
-      - name: 'testing github actions'
-        run: pwd
-      - name: 'testing print'
-        run: echo ahmed
+      # - name: 'testing github actions'
+      #   run: pwd
+      # - name: 'testing print'
+      #   run: echo ahmed
 
-      # - name: 'printing folder content'
-      #   run: ls
+      - name: 'printing folder content'
+        run: ls
       
