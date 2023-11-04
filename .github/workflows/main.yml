@@ -27,4 +27,4 @@ jobs:
       #   run: ls -a
       
       - name: "docker login"
-        run: docker login --username nadaadel19 --password dckr_pat__U21dr15Wfdvia36UtSVWVzr6aw
+        run: docker login --username ${{secrets.USER_NAME}} --password ${{secrets.DOCKER_TOKEN}} 
