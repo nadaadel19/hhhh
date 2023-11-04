@@ -1,0 +1,17 @@
+
+// key: value
+name: 'ali mohamed'
+
+// array 
+favotitrSongs:
+  - 'songe1'
+  - 'songe2' 
+  - 'songe3'
+
+// another way to make array
+favoriteMovies: ['movie1', 'movie2']
+// object
+characteristics:
+  age: 25
+  height: 170
+ 
