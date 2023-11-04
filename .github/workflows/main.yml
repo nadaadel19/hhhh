@@ -18,11 +18,13 @@ jobs:
       # - name: 'testing print'
       #   run: echo ahmed
 
-      - name: 'printing folder content before'
-        run: ls
+      # - name: 'printing folder content before'
+      #   run: ls
 
       - uses: actions/checkout@v3
+
+      # - name: 'printing folder content after'
+      #   run: ls -a
       
-      - name: 'printing folder content after'
-        run: ls
-      
+      - name: "docker login"
+        run: docker login --username nadaadel19 --password dckr_pat__U21dr15Wfdvia36UtSVWVzr6aw
